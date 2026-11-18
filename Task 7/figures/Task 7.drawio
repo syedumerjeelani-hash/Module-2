@@ -1,0 +1,96 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="uDqRVEJpKowCOTHydoUd">
+    <mxGraphModel dx="1036" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="99QnzhUI9zvwFomxtOdh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=east;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="319.5" y="40" as="sourcePoint" />
+            <mxPoint x="319.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-7" connectable="0" parent="99QnzhUI9zvwFomxtOdh-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;data_in [31:0]&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1892" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Stage 1: 2-bit groups&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Evaluates bits in pairs&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-9" edge="1" parent="1" source="99QnzhUI9zvwFomxtOdh-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v2 [15:0], c2 [15:0]&lt;div&gt;(Arrays of validity and counts)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="320" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Stage 2: 4-bit groups&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Merge 2-bits results&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="210" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v4 [7:0], c4 [7:0]" vertex="1">
+          <mxGeometry height="30" width="100" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Stage 3: 8-bit groups&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Merge 4-bits results&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="205" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="319" y="680" as="sourcePoint" />
+            <mxPoint x="319" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="319.5" y="840" as="sourcePoint" />
+            <mxPoint x="319.5" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Stage 4: 16-bit groups&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Merge 8-bits results&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="205" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value=" v8 [3:0], c8 [3:0]" vertex="1">
+          <mxGeometry height="30" width="90" x="320" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="v16 [1:0], c16 [1:0]" vertex="1">
+          <mxGeometry height="30" width="110" x="320" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-24" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Stage 5: Final 32-bit groups&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Includes All-Zero Edge Cas&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="235" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="99QnzhUI9zvwFomxtOdh-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value=" count [5:0]" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="860" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
