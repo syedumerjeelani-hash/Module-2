@@ -6,7 +6,7 @@ output logic [3:0]y
 
 
     always_comb begin 
-        unique case (sel == 2'b00)
+        unique case (sel)
 
             2'b00: y = w;
 

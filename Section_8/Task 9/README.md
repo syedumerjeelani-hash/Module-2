@@ -28,9 +28,9 @@ The testbench (`tb_shifters.sv`) validates both designs by applying various data
 ### Terminal Output
 The testbench monitors input permutations and expected shift results, logging the actual behavior to the terminal to confirm arithmetic/logical correctness.
 
-  **Terminal Log:** ![Terminal Output](figures/Task_09_terminal.png)
+  **Terminal Log:** ![Terminal Output](figures/Task_9_terminal.png)
 
 ### Waveform Analysis
 Simulation timing and signal transitions were evaluated using a waveform viewer to verify immediate, single-cycle combinational propagation for the variable shift operations.
 
-   **Simulation Waveform:** ![Waveform](figures/Task_09_sim.png)
+   **Simulation Waveform:** ![Waveform](figures/Task_9_sim.png)
