@@ -14,6 +14,7 @@ This project contains the SystemVerilog RTL design and verification environment 
 The design consists of a single module (`logic_gate.sv`) that implements foundational combinational logic operations (such as AND, OR, and XOR) to compute outputs based on 1-bit binary inputs.
 
 **Architecture Diagram:**
+
    ![Architecture Diagram](figures/drawio.png)
 
 ## Verification & Simulation Results
